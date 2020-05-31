@@ -1,0 +1,109 @@
+Api list
+
+1 - {
+    url : http://localhost:3000/api/internal_list
+    method : get,
+    parameter : ( watchListName=FRANCE Ministry of Finance, listType=Private)
+    response : {    "status": 1,
+                    "length": 9,
+                    "result": [
+                        {
+                            "tbl_id": 1,
+                            "ZONE_ID": "QA",
+                            "LIST_TYPE": "Shared",
+                            "LIST_CATEGORY": null,
+                            "WATCHLIST_NAME": "FRANCE Ministry of Finance",
+                            "WATCHLIST_ID": "FRANCE-MINEFI",
+                            "REF_KEY": null,
+                            "MAKER_USER_ID": "Sherif",
+                            "CHECKER_USER_ID": "Nuwan",
+                            "MAKER_USER_NM": "Sherif Mohammed Ezzat",
+                            "CHECKER_USER_NM": "Nuwan Saranga Mannaperuma",
+                            "MAKER_COMMENT": "This needs to be shared with all zones",
+                            "CHECKER_COMMENT": "Approved",
+                            "MAKER_DTTM": "2020-05-06T14:21:56.679Z",
+                            "CHECKER_DTTM": "2004-04-19T06:30:00.000Z",
+                            "MAKER_DATE": null,
+                            "CHECKER_DATE": null,
+                            "CHANGE_TYPE": "ADD",
+                            "UPDATE_VERSION": "1",
+                            "VALIDATION_STATUS": "Y",
+                            "VALID_FROM_DTTM": "2004-04-19T06:30:00.000Z",
+                            "VALID_TO_DTTM": "2020-04-29T14:14:01.878Z",
+                            "DELETE_FLG": "Y"
+                        }
+                    ]
+                } 
+}
+2 - {
+    url : http://localhost:3000/api/internal_watchlist,
+    method : get,
+    parameter : (customer_type="", customer_name="", customer_acc="", natinality="", watchlist_name="", id_no=""),
+    header param : (serial_no= "")
+    response : {
+    "status": 1,
+    "length": 716,
+    "result": [{
+                    "ZONE_ID": "QA",
+                    "WATCHLIST_ID": "LIST_26SEP19",
+                    "WATCHLIST_NAME": "QNB_STR_AML_LIST",
+                    "UID_SERIAL_NO": 7,
+                    "CUSTOMER_NAME_ENGLISH": "Khalid Al-Marfadi",
+                    "CUSTOMER_NAME_ARABIC": null,
+                    "CUSTOMER_TYPE": null,
+                    "CITY": null,
+                    "CUSTOMER_ACCOUNT": null,
+                    "DOB": null,
+                    "RESIDENCE_COUNTRY": null,
+                    "RESIDENCE_COUNTRY_FLAG": null,
+                    "NATIONALITY": null,
+                    "ID_NUMBER": null,
+                    "ID_TYPE": null,
+                    "KNOWN_AS_NAME_ENGLISH": null,
+                    "KNOWN_AS_NAME_ARABIC": null,
+                    "MOTHER_NAME": null,
+                    "ADDRESS": null,
+                    "REMARKS": null,
+                    "CIN": null,
+                    "NEW_PAN": null,
+                    "SOURCE": null,
+                    "CUSTOMER_STATUS": null,
+                    "BRANCH": null,
+                    "BR_CODE": null,
+                    "CUSTOMER_RISK_LEVEL": null,
+                    "CUSTOMER_CREATE_DATE": "2020-05-06T14:20:53.918Z",
+                    "CUST_RISK_LEVEL_UPDATE_DATE": "2020-04-30T09:01:43.039Z",
+                    "POLITICALLY_EXPOSED": null,
+                    "DETAILS_PROGRAMS": null,
+                    "OTHERS_REMARKS": null,
+                    "OTHERS_DATA_SOURCES": null,
+                    "OTHERS_RELATED_TO": null,
+                    "REF_KEY": 7,
+                    "MAKER_USER_ID": "unxsas",
+                    "CHECKER_USER_ID": null,
+                    "MAKER_USER_NM": "unxsas",
+                    "CHECKER_USER_NM": null,
+                    "MAKER_COMMENT": null,
+                    "CHECKER_COMMENT": null,
+                    "MAKER_DTTM": "2020-04-30T09:01:43.039Z",
+                    "CHECKER_DTTM": "2020-04-30T09:01:43.039Z",
+                    "MAKER_DATE": null,
+                    "CHECKER_DATE": null,
+                    "CHANGE_TYPE": "Insert",
+                    "DELETE_FLG": "N",
+                    "UPDATE_VERSION": "New",
+                    "VALIDATION_STATUS": "Approved",
+                    "VALID_FROM_DTTM": "2008-07-19T02:12:58.150Z",
+                    "VALID_TO_DTTM": "2020-04-30T09:01:43.039Z"
+                    }]
+            }
+}
+3 - {
+    url : http://localhost:3000/api/login
+    method : post,
+    parameter : {
+        "user_name" : "admin@gmail.com",
+        "password" : "123456"
+    }
+    format : json
+}

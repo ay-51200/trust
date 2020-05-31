@@ -1,0 +1,527 @@
+
+--------------listing api in GET method-------------------
+
+http://localhost:3000/api/sanctioned_cities
+{
+    "status": 1,
+    "length": 22,
+    "result": [
+        {
+            "ZONE_ID": "QA",
+            "ENTRY_TYPE": "Shared",
+            "SANCTIONED_CITY": "Minsk",
+            "REF_KEY": 1,
+            "MAKER_USER_ID": "unxsas",
+            "CHECKER_USER_ID": null,
+            "MAKER_USER_NM": "unxsas",
+            "CHECKER_USER_NM": null,
+            "MAKER_COMMENT": null,
+            "CHECKER_COMMENT": null,
+            "MAKER_DTTM": "2003-09-19T06:10:54.748Z",
+            "CHECKER_DTTM": "2020-05-12T07:59:29.187Z",
+            "MAKER_DATE": null,
+            "CHECKER_DATE": null,
+            "CHANGE_TYPE": "Insert",
+            "UPDATE_VERSION": "New",
+            "VALIDATION_STATUS": "NA",
+            "VALID_FROM_DTTM": "2003-09-19T06:10:54.748Z",
+            "VALID_TO_DTTM": "2020-05-12T07:59:29.187Z"
+        },
+        {
+            "ZONE_ID": "QA",
+            "ENTRY_TYPE": "Shared",
+            "SANCTIONED_CITY": "KABUL",
+            "REF_KEY": 2,
+            "MAKER_USER_ID": "unxsas",
+            "CHECKER_USER_ID": null,
+            "MAKER_USER_NM": "unxsas",
+            "CHECKER_USER_NM": null,
+            "MAKER_COMMENT": null,
+            "CHECKER_COMMENT": null,
+            "MAKER_DTTM": "2003-09-19T06:10:54.748Z",
+            "CHECKER_DTTM": "2020-05-12T07:59:29.273Z",
+            "MAKER_DATE": null,
+            "CHECKER_DATE": null,
+            "CHANGE_TYPE": "Insert",
+            "UPDATE_VERSION": "New",
+            "VALIDATION_STATUS": "NA",
+            "VALID_FROM_DTTM": "2003-09-19T06:10:54.748Z",
+            "VALID_TO_DTTM": "2020-05-12T07:59:29.273Z"
+        }]
+}
+
+
+ http://192.168.42.157:3000/api/zone_x_global_keywords
+{
+    "status": 1,
+    "length": 709,
+    "result": [
+        {
+            "ZONE_ID": "YE",
+            "PROGRAM_KEYWORD": "AEDTO",
+            "REF_KEY": 1,
+            "MAKER_USER_ID": "amqa",
+            "CHECKER_USER_ID": "acqa",
+            "MAKER_USER_NM": "amqa",
+            "CHECKER_USER_NM": "acqa",
+            "MAKER_COMMENT": null,
+            "CHECKER_COMMENT": null,
+            "MAKER_DTTM": "2001-08-19T06:30:38.095Z",
+            "CHECKER_DTTM": "2011-09-18T20:59:40.715Z",
+            "MAKER_DATE": null,
+            "CHECKER_DATE": null,
+            "CHANGE_TYPE": "Delete",
+            "UPDATE_VERSION": "New",
+            "VALIDATION_STATUS": "Approved",
+            "VALID_FROM_DTTM": "2001-08-19T06:30:38.095Z",
+            "VALID_TO_DTTM": "2020-05-12T08:05:00.010Z",
+            "PROGRAM_KEYWORD_DESC": "UNITED ARAB EMIRATES - AEDTO - UAE Designated Terrorist Organisations"
+        },
+        {
+            "ZONE_ID": "YE",
+            "PROGRAM_KEYWORD": "BXA",
+            "REF_KEY": 3,
+            "MAKER_USER_ID": "amqa",
+            "CHECKER_USER_ID": "acqa",
+            "MAKER_USER_NM": "amqa",
+            "CHECKER_USER_NM": "acqa",
+            "MAKER_COMMENT": null,
+            "CHECKER_COMMENT": null,
+            "MAKER_DTTM": "2001-08-19T06:30:38.095Z",
+            "CHECKER_DTTM": "2011-09-18T20:59:40.715Z",
+            "MAKER_DATE": null,
+            "CHECKER_DATE": null,
+            "CHANGE_TYPE": "Delete",
+            "UPDATE_VERSION": "New",
+            "VALIDATION_STATUS": "Approved",
+            "VALID_FROM_DTTM": "2001-08-19T06:30:38.095Z",
+            "VALID_TO_DTTM": "2020-05-12T08:04:22.169Z",
+            "PROGRAM_KEYWORD_DESC": "USA - BXA - Bureau Ind and Sec Denied Persons List"
+        }]
+}
+
+
+http://localhost:3000/api/high_risk_countries
+{
+    "status": 1,
+    "length": 253,
+    "result": [
+        {
+            "ZONE_ID": "QA",
+            "COUNTRY_CODE": "AF",
+            "COUNTRY_NAME": "Afghanistan",
+            "RISK_LEVEL": "H",
+            "SANCTIONED_FLAG": "Y",
+            "REF_KEY": 1,
+            "MAKER_USER_ID": "sasdemo",
+            "CHECKER_USER_ID": "sasdemo",
+            "MAKER_USER_NM": "sasdemo",
+            "CHECKER_USER_NM": null,
+            "MAKER_COMMENT": null,
+            "CHECKER_COMMENT": null,
+            "MAKER_DTTM": "2029-05-18T23:04:23.000Z",
+            "CHECKER_DTTM": "2029-05-19T01:25:56.113Z",
+            "MAKER_DATE": null,
+            "CHECKER_DATE": null,
+            "CHANGE_TYPE": "Insert",
+            "UPDATE_VERSION": "New",
+            "VALIDATION_STATUS": "Approved",
+            "VALID_FROM_DTTM": "2029-05-18T23:04:23.000Z",
+            "VALID_TO_DTTM": "2029-05-18T23:04:23.000Z"
+        }]
+}
+
+http://localhost:3000/api/neutral_words
+{
+    "status": 1,
+    "length": 23,
+    "result": [
+        {
+            "ZONE_ID": "QA",
+            "NOISE_WORD": "AND",
+            "REF_KEY": 1,
+            "MAKER_USER_ID": "Sherif",
+            "CHECKER_USER_ID": "Nuwan",
+            "MAKER_USER_NM": "Sherif Mohammed Ezzat",
+            "CHECKER_USER_NM": "Nuwan Saranga Mannaperuma",
+            "MAKER_COMMENT": "To be used for all zones",
+            "CHECKER_COMMENT": "Approved",
+            "MAKER_DTTM": "2004-04-19T06:30:00.000Z",
+            "CHECKER_DTTM": "2004-04-19T06:30:00.000Z",
+            "MAKER_DATE": null,
+            "CHECKER_DATE": null,
+            "CHANGE_TYPE": "ADD",
+            "UPDATE_VERSION": "1",
+            "VALIDATION_STATUS": "Y",
+            "VALID_FROM_DTTM": "2004-04-19T06:30:00.000Z",
+            "VALID_TO_DTTM": "2020-05-12T07:25:01.747Z"
+        }]
+}
+
+http://localhost:3000/api/blacklist_bic
+{
+    "status": 1,
+    "length": 303,
+    "result": [
+        {
+            "ZONE_ID": "QA",
+            "BIC": "RAFBIQBA",
+            "INSTITUTION_NAME": null,
+            "CITY": null,
+            "COUNTRY": null,
+            "REF_KEY": 54,
+            "MAKER_USER_ID": null,
+            "CHECKER_USER_ID": null,
+            "MAKER_USER_NM": "unxsrv",
+            "CHECKER_USER_NM": null,
+            "MAKER_COMMENT": null,
+            "CHECKER_COMMENT": null,
+            "MAKER_DTTM": "2020-05-12T06:57:24.189Z",
+            "CHECKER_DTTM": "2020-05-12T06:57:24.189Z",
+            "MAKER_DATE": null,
+            "CHECKER_DATE": null,
+            "CHANGE_TYPE": "Insert",
+            "UPDATE_VERSION": "New",
+            "VALIDATION_STATUS": "Approved",
+            "VALID_FROM_DTTM": "2026-11-19T01:20:17.779Z",
+            "VALID_TO_DTTM": "2020-05-12T06:57:24.189Z",
+            "BIC8": "RAFBIQBA",
+            "WATCHLIST_NAME": "WCHK",
+            "UID_NO": "           7277",
+            "WATCHLIST_TYPE": "GLOBAL"
+        }]
+}
+
+http://localhost:3000/api/internal_watchlist
+{
+    "status": 1,
+    "length": 716,
+    "result": [
+        {
+            "ZONE_ID": "QA",
+            "WATCHLIST_ID": "LIST_26SEP19",
+            "WATCHLIST_NAME": "QNB_STR_AML_LIST",
+            "UID_SERIAL_NO": 7,
+            "CUSTOMER_NAME_ENGLISH": "Khalid Al-Marfadi",
+            "CUSTOMER_NAME_ARABIC": null,
+            "CUSTOMER_TYPE": null,
+            "CITY": null,
+            "CUSTOMER_ACCOUNT": null,
+            "DOB": null,
+            "RESIDENCE_COUNTRY": null,
+            "RESIDENCE_COUNTRY_FLAG": null,
+            "NATIONALITY": null,
+            "ID_NUMBER": null,
+            "ID_TYPE": null,
+            "KNOWN_AS_NAME_ENGLISH": null,
+            "KNOWN_AS_NAME_ARABIC": null,
+            "MOTHER_NAME": null,
+            "ADDRESS": null,
+            "REMARKS": null,
+            "CIN": null,
+            "NEW_PAN": null,
+            "SOURCE": null,
+            "CUSTOMER_STATUS": null,
+            "BRANCH": null,
+            "BR_CODE": null,
+            "CUSTOMER_RISK_LEVEL": null,
+            "CUSTOMER_CREATE_DATE": "2020-05-06T14:20:53.918Z",
+            "CUST_RISK_LEVEL_UPDATE_DATE": "2020-04-30T09:01:43.039Z",
+            "POLITICALLY_EXPOSED": null,
+            "DETAILS_PROGRAMS": null,
+            "OTHERS_REMARKS": null,
+            "OTHERS_DATA_SOURCES": null,
+            "OTHERS_RELATED_TO": null,
+            "REF_KEY": 7,
+            "MAKER_USER_ID": "unxsas",
+            "CHECKER_USER_ID": null,
+            "MAKER_USER_NM": "unxsas",
+            "CHECKER_USER_NM": null,
+            "MAKER_COMMENT": null,
+            "CHECKER_COMMENT": null,
+            "MAKER_DTTM": "2020-04-30T09:01:43.039Z",
+            "CHECKER_DTTM": "2020-04-30T09:01:43.039Z",
+            "MAKER_DATE": null,
+            "CHECKER_DATE": null,
+            "CHANGE_TYPE": "Insert",
+            "DELETE_FLG": "N",
+            "UPDATE_VERSION": "New",
+            "VALIDATION_STATUS": "Approved",
+            "VALID_FROM_DTTM": "2008-07-19T02:12:58.150Z",
+            "VALID_TO_DTTM": "2020-04-30T09:01:43.039Z"
+        }]
+}       
+
+http://localhost:3000/api/internal_list
+{
+    "status": 1,
+    "length": 9,
+    "result": [
+        {
+            "tbl_id": 1,
+            "ZONE_ID": "QA",
+            "LIST_TYPE": "Shared",
+            "LIST_CATEGORY": null,
+            "WATCHLIST_NAME": "FRANCE Ministry of Finance",
+            "WATCHLIST_ID": "FRANCE-MINEFI",
+            "REF_KEY": null,
+            "MAKER_USER_ID": "Sherif",
+            "CHECKER_USER_ID": "Nuwan",
+            "MAKER_USER_NM": "Sherif Mohammed Ezzat",
+            "CHECKER_USER_NM": "Nuwan Saranga Mannaperuma",
+            "MAKER_COMMENT": "This needs to be shared with all zones",
+            "CHECKER_COMMENT": "Approved",
+            "MAKER_DTTM": "2020-05-06T14:21:56.679Z",
+            "CHECKER_DTTM": "2004-04-19T06:30:00.000Z",
+            "MAKER_DATE": null,
+            "CHECKER_DATE": null,
+            "CHANGE_TYPE": "ADD",
+            "UPDATE_VERSION": "1",
+            "VALIDATION_STATUS": "Y",
+            "VALID_FROM_DTTM": "2004-04-19T06:30:00.000Z",
+            "VALID_TO_DTTM": "2020-04-29T14:14:01.878Z",
+            "DELETE_FLG": "Y"
+        }]
+}         
+
+
+--------------listing api in GET method-------------------
+
+
+parameter send in json format in add api
+
+-------------------add api in POST method ------------------------
+http://localhost:3000/api/add_highRiskCountry
+ {
+	"zone_id" : "QA",
+	"country_code" : "USA",
+	"country_name" : "america",
+	"risk_level" : "L",
+	"sanctioned_flag" : "N",
+	"maker_user_id" : "",
+	"checker_user_id" : "",
+	"maker_user_nm" : "",
+	"checker_user_nm" : "",
+	"maker_comment" : "",
+	"checker_comment" : "",
+	"maker_dttm" : "2004-04-19",
+	"checker_dttm" : "2004-04-19",
+	"maker_date" : "",
+	"checker_date" : "",
+	"change_type" : "",
+	"update_version" : "",
+	"validation_status" : "",
+	"valid_from_dttm" : "2004-04-19",
+	"valid_to_dttm" : "2004-04-19"
+}
+
+http://localhost:3000/api/add_neutral_words
+{
+	"zone_id" : "QA",
+	"noise_word" : "PVT",
+	"maker_user_id" : "",
+	"checker_user_id" : "",
+	"maker_user_nm" : "",
+	"checker_user_nm" : "",
+	"maker_comment" : "",
+	"checker_comment" : "",
+	"maker_dttm" : "2004-04-19",
+	"checker_dttm" : "2004-04-19",
+	"maker_date" : "",
+	"checker_date" : "",
+	"change_type" : "ADD",
+	"update_version" : "1",
+	"validation_status" : "Y",
+	"valid_from_dttm" : "2004-04-19",
+	"valid_to_dttm" : "2004-04-19"
+}
+
+http://localhost:3000/api/add_sanctioned_cities
+{
+	"zone_id" : "QA",
+	"entry_type" : "Shared",
+	"sanctioned_city" : "",
+	"maker_user_id" : "",
+	"checker_user_id" : "",
+	"maker_user_nm" : "",
+	"checker_user_nm" : "",
+	"maker_comment" : "",
+	"checker_comment" : "",
+	"maker_dttm" : "2004-04-19",
+	"checker_dttm" : "2004-04-19",
+	"maker_date" : "",
+	"checker_date" : "",
+	"change_type" : "ADD",
+	"update_version" : "1",
+	"validation_status" : "Y",
+	"valid_from_dttm" : "2004-04-19",
+	"valid_to_dttm" : "2004-04-19"
+}
+
+
+http://localhost:3000/api/add_blacklisted_bic
+{
+	"zone_id" : "QA",
+	"bic" : "",
+	"bic8" : "",
+	"institution_name" :"",
+	"city" : "",
+	"COUNTRY" : "",
+	"WATCHLIST_NAME" : "",
+	"UID_NO" : "",
+	"WATCHLIST_TYPE" : "",
+	"maker_user_id" : "",
+	"checker_user_id" : "",
+	"maker_user_nm" : "",
+	"checker_user_nm" : "",
+	"maker_comment" : "",
+	"checker_comment" : "",
+	"maker_dttm" : "2004-04-19",
+	"checker_dttm" : "2004-04-19",
+	"maker_date" : "",
+	"checker_date" : "",
+	"change_type" : "ADD",
+	"update_version" : "1",
+	"validation_status" : "Y",
+	"valid_from_dttm" : "2004-04-19",
+	"valid_to_dttm" : "2004-04-19"
+}
+
+http://localhost:3000/api/add_zone_global_keywords
+{
+	"zone_id" : "QA",
+	"program_keyword" : "",
+	"program_keyword_desc" : "",
+	"maker_user_id" : "",
+	"checker_user_id" : "",
+	"maker_user_nm" : "",
+	"checker_user_nm" : "",
+	"maker_comment" : "",
+	"checker_comment" : "",
+	"maker_dttm" : "2004-04-19",
+	"checker_dttm" : "2004-04-19",
+	"maker_date" : "",
+	"checker_date" : "",
+	"change_type" : "ADD",
+	"update_version" : "1",
+	"validation_status" : "Y",
+	"valid_from_dttm" : "2004-04-19",
+	"valid_to_dttm" : "2004-04-19"
+}
+
+-------------------add api in POST method ------------------------
+
+--------------------update api in POST method--------------------
+http://localhost:3000/api/update_highRishCountry
+{
+	"ref_key" : "1",
+	"zone_id" : "QA",
+	"country_code" : "AF",
+	"country_name" : "Afghanistan",
+	"risk_level" : "H",
+	"sanctioned_flag" : "Y"
+}
+
+http://localhost:3000/api/update_blacklistedBic
+{
+	"ref_key" : "342",
+	"bic" : "BNPAFRPPPLI", 
+	"city"  : "aGG",
+	"zone_id" : "QA",
+	"institution_name" : "HIP",
+	"country" : "Afghanistan",
+	"bic8" : "BNPAFRPP",
+	"watchlist_type":"",
+	"watchlist_name" : ""
+}
+
+http://localhost:3000/api/update_neutralWords
+{
+	"noise_word" : "PVTT",
+	"ref_key" : "23",
+	"zone_id" : "QA"
+}
+
+http://localhost:3000/api/update_sanctionedCities
+{
+	"ref_key" : "8",
+	"zone_id" : "QA",
+	"sanctioned_city" : "YEMENS",
+	"entry_type" : "Shared"
+}
+
+http://localhost:3000/api/update_zoneGlobalKeywords
+{
+	"ref_key" : "264",
+	"program_keyword" : "561LIST",
+	"zone_id" :"SD"
+}
+
+http://localhost:3000/api/update_internalListDef
+{
+	"ref_key" : "9",
+	"zone_id" : "QA",
+	"list_category" : "",
+	"list_type" : "shared",
+	"watchlist_name" : "FRANCE Ministry of Finance",
+	"watchlist_id" : "FRANCE-MINEFI"
+}
+
+http://localhost:3000/api/update_internalWatchList
+{
+	"uid_serial_no" : "785",
+	"zone_id" : "QA",
+	"watchlist_id" : "QCB Freeze-Delete-Amend UN Lis",
+	"watchlist_name" : "QCB Freeze-Delete-Amend UN List 2016",
+	"customer_name_english" : "XSF",
+	"customer_name_arabic" : "",
+	"customer_type" : "",
+	"city" : "indore",
+	"customer_account" : "",
+	 "dob" : "2000-09-09",
+	 "residence_country" : "india",
+	 "nationality" : "indian",
+	 "id_number" : "",
+	 "id_type" : "",
+	 "known_as_name_english":"",
+	 "known_as_name_arabic" : "",
+	 "mother_name" : "",
+	 "address" : "",
+	 "remarks" : "",
+	 "cin" : "",
+	 "new_pan" : "",
+	 "source" : "",
+	 "customer_status" : "",
+	 "branch" : "",
+	 "br_code" : "",
+	 "customer_risk_level" : "",
+	 "customer_create_date" : "",
+	 "cust_risk_level_update_date" : "",
+	 "politically_exposed" : "",
+	 "details_programs" : "",
+	 "others_remarks" : "",
+	 "others_data_sources" : "",
+	 "others_related_to" : ""
+}
+
+------------------------delete api in post method (header param : ref_key)----------------
+http://localhost:3000/api/del_highRiskCountry
+    ref_key:253
+
+http://localhost:3000/api/del_internal_watchlist
+    uid_serial_no:256
+
+http://localhost:3000/api/del_internal_list
+    ref_key:1
+
+http://localhost:3000/api/del_blacklisted_bic
+    ref_key:342
+
+http://localhost:3000/api/del_neutral_words
+    ref_key:23
+
+http://localhost:3000/api/del_sanctioned_cities
+    ref_key:8
+
+http://localhost:3000/api/del_zone_global_keywords
+    ref_key:703

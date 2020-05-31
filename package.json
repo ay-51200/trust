@@ -1,0 +1,23 @@
+{
+  "name": "node_bank",
+  "version": "1.0.0",
+  "description": "bank project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bhanu prakash jaiswal",
+  "license": "ISC",
+  "dependencies": {
+    "ajax-request": "^1.2.3",
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "node-input-validator": "^4.2.0",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
